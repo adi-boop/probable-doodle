@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary Meta Tags -->
+    <title>Aditya Sharma | FULL STACK DEVELOPER | UI/UX DESIGNER</title>
+    <meta name="title" content="Aditya Sharma | FULL STACK DEVELOPER | UI/UX DESIGNER">
+    <meta name="description"
+        content="Hire Professional Freelancer,Instructor & Full Stack (MEAN/MERN) Developer.React Developer,Nodejs Developer,Angular Developer Building animations and interactive experiences, hi-end solutions, website maintenance & security">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="index.html">
+    <meta property="og:title" content="Aditya Sharma | FULL STACK DEVELOPER | UI/UX DESIGNER">
+    <meta property="og:description"
+        content="Hire Professional Freelancer,Instructor & Full Stack (MEAN/MERN) Developer,React Developer,Nodejs Developer,Angular Developer Building animations and interactive experiences, hi-end solutions, website maintenance & security">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="index.html">
+    <meta property="twitter:title" content="Aditya Sharma | FULL STACK DEVELOPER | UI/UX DESIGNER">
+    <meta property="twitter:description"
+        content="Hire Professional Freelancer,Instructor & Full Stack (MERN/MEAN) Developer,React Developer,Nodejs Developer,Angular Developer Building animations and interactive experiences, hi-end solutions, website maintenance & security">
+    <meta property="twitter:image" content="">
+
+
+
+
+    <!-- CDN IMPORTS 😊 -->
+    <link rel="stylesheet" href="assets/alertifyjs/build/css/alertify.min.css" />
+    <link href="cdn.jsdelivr.net/npm/bootstrap%405.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.0.0-beta2-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="csshake.surge.sh/csshake.min.css">
+    <link rel="stylesheet" type="text/css" href="csshake.surge.sh/csshake-slow.min.css">
+    <script src="cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="../unpkg.com/masonry-layout%404.2.2/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="assets/emailjs-com/dist/email.min.js"></script>
+    <script src="js/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script>
+    <link rel="stylesheet" href="js/timeline/css/timeline.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('z4iBztBKphPTRBxJ3')
+    </script>
+
+
+
+    <!-- CDN IMPORT ENDS HERE -->
+
+    <link rel="stylesheet" href="css/index2.css">
+    <link rel="stylesheet" href="css/cursor.css">
+    <link rel="icon" href="images/ProfileImages/ProfileInitial.jpg">
+
+</head>
+<style>
+</style>
+
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light position-fixed w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand " href="#"><span class="custom-logo">AS</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse ">
+                        <div class="me-auto">
+                        </div>
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link" aria-current="page" href="#">
+                                    <i class="fas fa-home"></i>
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link shake dib" href="#nav-about">
+                                    <i class="fas fa-user-circle"></i>
+                                    <span>About Me</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link shake-slow" href="#nav-tech">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <span>Skills</span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link shake dib" href="#nav-education">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link shake dib" href="#nav-projects">
+                                    <i class="fas fa-code"></i><span>Projects</span></a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a class="nav-link custom-nav-link shake-slow" href="#nav-achievements">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Achievements & Certification</span></a>
+                            </li> -->
+
+
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link shake dib" href="#nav-contactme">
+                                    <i class="fas fa-id-card"></i>
+                                    <span>Contact Me</span></a>
+                            </li>
+                        </ul>
+                        <ul class="custom-icons navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link ">
+                                    <!-- <span>Alt + N</span> -->
+                                    <i class="fas fa-moon rotating-css" id="moon" onclick="toogleThemeClick()"
+                                        accesskey="n" style="margin-left: 10px;"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+
+            </nav>
+
+            <!-- custom navbar starts here -->
+            <div id="mySidenav" class="sidenav">
+                <a onclick="closeNav()" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a onclick="closeNav()" href="#">Home</a>
+                <a onclick="closeNav()" href="#nav-about">About Me</a>
+
+                <a onclick="closeNav()" href="#nav-education">Education</a>
+                <a onclick="closeNav()" href="#nav-projects">Projects</a>
+                <a onclick="closeNav()" href="#nav-tech">Technologies</a>
+                <!--    <a onclick="closeNav()" href="#nav-achievements">Achievements & Certification</a> -->
+                <a onclick="closeNav()" href="#nav-contactme">Contact</a>
+                <a onclick="closeNav()">
+                    <i class="fas fa-moon" id="moon1" onclick="toogleThemeClick()"></i>
+                </a>
+            </div>
+            <!-- custom navabr ends here  -->
+        </header>
+        <section id="name-section" class="custom-center custom-bg  ">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-sm-12 custom-center ">
+                        <p class="custom-span tracking-in-expand ">
+                            Aditya Sharma
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 custom-center">
+                        <p class="custom-designation text-flicker-in-glow">
+                            <!-- &lt;&gt;  -->
+                            FULL STACK DEVELOPER | UI/UX DESIGNER
+                            <!-- &#60;&#47;&#62; -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <a href="#nav-about">
+                        <div class="col-sm-12">
+                            <div class="mouse_scroll">
+                                <div class="mouse">
+                                    <div class="wheel"></div>
+                                </div>
+                                <div>
+                                    <span class="m_scroll_arrows unu"></span>
+                                    <span class="m_scroll_arrows doi"></span>
+                                    <span class="m_scroll_arrows trei"></span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </a>
+            </div>
+
+        </section>
+        <div id="nav-about" class="mb-5">
+
+        </div>
+        <section class="about-section" id="aboutme ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+
+                        <span class="custom-span-color ">About Me</span>
+                        <div style="display: flex;">
+                            <div class="custom-aboutme-line">
+                            </div>
+                            <div class="custom-aboutme-dot">
+                            </div>
+
+                        </div>
+                        <p>
+                            <br>
+                            I'm a
+                            <span class="skills-custom-color custom-span">Full Stack Developer & Designer </span>living
+                            in
+                            Jaipur, Rajasthan, India.
+                            I design and code beautiful and simple things, and I love what I do.
+                            I create bespoke websites to help people go further online.
+                            Experienced with all stages of the development cycle for dynamic web projects. Having an
+                            in-depth knowledge including
+                            <span class="custom-span">Adobe Illustrator, Adobe XD, Figma, HTML5, CSS3,
+                                JavaScript, TypeScript, ReactJS.</span>
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <img src="images/ProfileImages/ProfilePhoto.jpg" alt="My Profile picture" class="img-fluid"
+                            id="mypic">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <div id="nav-tech" class="mb-5" class='nav-tech'>
+        </div>
+        <section class="skills-section" id="technologies">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <span class="custom-span-color">Skills $ Experience</span>
+                            <div style="display: flex;">
+                                <div class="custom-skills-line"></div>
+                                <div class="custom-skills-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 mt-4">
+
+                        Expert in Front-End development, Graphic & UI/UX Designing including technologies like
+                        <span class="skills-custom-color custom-span">
+                            Adobe Illustrator, Canva, Adobe XD, Figma, HTML5, CSS3, Javascript, jQuery, React,
+                            Typescript,
+                            Bootstrap, Sass, Git
+                        </span>.etc.
+
+                        <p>
+                            Experienced with all stages of the development cycle for dynamic web projects.
+                        </p>
+                        <p>
+                            Visit my <a onclick="goToLink('https://www.linkedin.com/in/aditya-sharma02/')" id="linkdln"
+                                class="linkdln custom-span">Linkedln</a> profile for
+                            more
+                            details at this link.
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-md-6 text-center custom-canvas">
+                        <div id="myCanvasContainer">
+                            <canvas width="300" height="250" id="myCanvas">
+                                <p>Anything in here will be replaced on browsers that support the canvas element</p>
+                            </canvas>
+                        </div>
+                        <aside id="tags" class="canvas">
+                            <ul>
+                                <li><a href="#" data-weight="30" class="custom-span">HTML5</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">CSS3</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">NodeJS</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Angular</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">ReactJS</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">MySQL</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Adobe XD</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Canva</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Adobe Illustrator</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Micosoft Azure</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">React Native</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Adobe XD</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">TypeScript</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Github</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Git</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Figma</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Bootstrap</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">jQuery</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">npm</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">RxJs</a></li>
+                                <li><a href="#" data-weight="23" class="custom-span">Single Page Application(SPA)</a>
+                                </li>
+                                <li><a href="#" data-weight="23" class="custom-span">Micro front-end(MFE)</a></li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <div id="nav-education" class="mb-5">
+
+        </div>
+        <section class="education-section" id="education">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-sm-12">
+
+                        <span class="custom-span-color">Education</span>
+                        <div style="display: flex;">
+                            <div class="custom-education-line">
+                            </div>
+                            <div class="custom-education-dot">
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div class="row mt-4 ">
+                    <div class="col-sm-7">
+
+                        <p>
+                            • Bachelors of Technology <span class="custom-color custom-span"> (B.Tech)</span>
+                        </p>
+                        <p>
+                            I'm a Computer Science student & have completed my Bachelors of Technology from
+                            <span>Arya College of Engineering and IT (ACEIT)</span>, Jaipur,
+                            Rajasthan.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row mt-4 d-flex flex-row-reverse">
+
+
+                    <div class="col-sm-8">
+
+                        <p style="text-align: right;">
+                            • Higher Secondary 12<sup>th</sup> <span class="custom-color custom-span">(69 %)</span>
+                        </p>
+                        <p style="text-align: right;">
+                            I've completed my class 12<sup>th</sup> in fields of
+                            Physics, Chemistry & Maths (P.C.M) from
+                            <span> Disha Delphi Public School</span>, Kota,
+                            Rajasthan.
+                        </p>
+
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-7">
+
+                        <p>
+                            • Senior Secondary 10<sup>th</sup><span class="custom-color custom-span"> (8.9 cgpa)</span>
+                        </p>
+                        <p>
+                            I've completed my class 10<sup>th</sup> from <span>Disha Delphi Public School</span>,
+                            Kota,
+                            Rajasthan.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="nav-projects" class="mb-5">
+
+        </div>
+        <section class="project-section" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <span class="custom-span-color">
+                            Projects
+                        </span>
+                        <div style="display: flex;">
+                            <div class="custom-projects-line">
+                            </div>
+                            <div class="custom-projects-dot">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br><br><br>
+
+                <!--
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                        <div class="card mb-3">
+                            <img src="images/Project/CSMART/Screenshot%202022-01-08%20143307.png" class="card-img-top"
+                                alt="CSMART">
+                            <div class="card-body">
+                                <h5 class="card-title">Cloud–Secured Managed Automated Reporting Tool</h5>
+                                <p class="card-text">
+                                    <hr>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">HTML5</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">SCSS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Angular(v8)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">TypeScript</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">JavaScript</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Bootstrap(v3)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">NodeJS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Angular Material</span>
+                                </p>
+                                <a href="https://celebaltech.com/c-smart" target="_blank" class="btn btn-custom">Go
+                                    To
+                                    Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="card mb-3">
+                            <img src="images/Project/hiring-portal.png" class="card-img-top" alt="Hiring Portal"
+                                style="height: 285px">
+                            <div class="card-body">
+                                <h5 class="card-title">Hiring Portal</h5>
+                                <p class="card-text">
+                                    <hr>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">HTML5</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">SCSS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Angular(v8)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">TypeScript</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">JavaScript</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Bootstrap(v3)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">NodeJS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Angular Material</span>
+                                </p>
+                                <a href="https://careers.celebaltech.com/#/careers" target="_blank"
+                                    class="btn btn-custom">Go To Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                        <div class="card mb-3">
+                            <img src="images/Project/qualitechArtsandCrafts.png" class="card-img-top"
+                                alt="QualitechArtsandCrafts">
+                            <div class="card-body">
+                                <h5 class="card-title">Qualitech Arts and Crafts</h5>
+                                <p class="card-text">
+                                    <hr>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">HTML5</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">CSS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">JavaScript</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Bootstrap(v3)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">PHP</span>
+                                </p>
+                                <a href="https://qualitechartsncrafts.com/" target="_blank" class="btn btn-custom">Go To
+                                    Certificate</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="card mb-3">
+                            <img src="images/Project/qualitechGroups.png" class="card-img-top" alt="QualitechGroups">
+                            <div class="card-body">
+                                <h5 class="card-title">Qualitech Groups</h5>
+                                <p class="card-text">
+                                    <hr>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">HTML5</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">CSS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">JavaScript</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Bootstrap(v3)</span>
+                                </p>
+                                <a href="https://qualitechgroup.in/" target="_blank" class="btn btn-custom">Go To
+                                    Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>       -->
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-5">
+                        <div class="card mb-3">
+                            <img src="images/Project/portfolio.png" class="card-img-top" alt="CSMART">
+                            <div class="card-body">
+                                <h5 class="card-title">Portfolio</h5>
+                                <p class="card-text">
+                                    <hr>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">HTML5</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">JavaScript(ES6)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">CSS</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Bootstrap(v5)</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">Figma</span>
+                                    <span class="badge rounded-pill  custom-pill-bg-color">EmailJS</span>
+                                </p>
+
+
+                                <a href="index.html" target="_blank" class="btn btn-custom">Go
+                                    To
+                                    Website</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5"></div>
+                    <div class="col-sm-1"></div>
+                </div>
+
+                <!--
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p><span class="custom-span">Current Project</span> :- Currently working as <span
+                                class="custom-span">MEAN</span>
+                            Stack Developer
+                            for renowned
+                            company can't disclose project
+                            . </p>
+                    </div>
+                </div>  
+                -->
+                <br><br>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p><span class="custom-span">Note</span>:- Visit my
+                            <a class="github custom-span" onclick="goToLink('https://github.com/adi-boop')"> Github
+                            </a> profile for more projects at this link.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  <div id="nav-achievements" class="mb-5">
+
+        </div>
+        <section class="achievements-section" id="achievements">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="custom-heading">
+                            <span class="custom-span-color">
+                                Achievements & Certifications
+                            </span>
+                            <div style="display: flex;">
+                                <div class="custom-achiev-line">
+                                </div>
+                                <div class="custom-achiev-dot">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <img src="images/Certification/bootstrap.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="custom-span">Coursera</span>:- Frontend Web
+                                    Development with bootstrap </h5>
+                                <p class="card-text">Front-End Web UI Frameworks and Tools:
+                                    Bootstrap 4 an online non-credit course authorized by The Hong Kong University
+                                    of Science and
+                                    Technology and offered through Coursera</p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/ZZL8N6SVJCUK"
+                                    target="_blank" class="btn btn-custom">Go To Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <img src="images/Certification/react.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="custom-span">Coursera</span>:- Frontend
+                                    Developmet
+                                    with
+                                    React </h5>
+                                <p class="card-text">Front-End Web Development with React
+                                    an online non-credit course authorized by The Hong Kong University of Science
+                                    and
+                                    Technology and offered through Coursera</p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/3CS9YYQDD5X5"
+                                    target="_blank" class="btn btn-custom">Go To Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <img src="images/Certification/udemy.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="custom-span">Udemy</span>:- Angular(V9)
+                                    Certificate
+                                </h5>
+                                <p class="card-text">The certificate indicates the entire course was completed as
+                                    validated by the student. The course duration represents the total video hours
+                                    of
+                                    the course at time of most recent completion.</p>
+                                <a href="https://www.udemy.com/certificate/UC-57fb90c4-4b42-4ca1-a13d-1f2738f68c96/"
+                                    target="_blank" class="btn btn-custom">Go To Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card">
+                            <img src="images/Certification/azure-fundamentals-600x600.png" class="card-img-top"
+                                alt="Microsoft Azure" style="height: 375px;width: 368px">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="custom-span">Microsoft Azure</span>:- AZ-900
+                                </h5>
+                                <p class="card-text">Earners of the Azure Fundamentals certification have
+                                    demonstrated
+                                    foundational level knowledge of cloud services and how those services are
+                                    provided
+                                    with Microsoft Azure</p>
+                                <a href="https://www.credly.com/badges/c98f054b-3cda-455e-b26b-6a6afb2ff137?source=linked_in_profile"
+                                    target="_blank" class="btn btn-custom">Go To Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-5">
+                        <div class="card">
+                            <img src="images/Certification/angularcoursera.png" class="card-img-top w-auto" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><span class="custom-span">Coursera</span>:- Angular(V9)
+                                    Certificate
+                                </h5>
+                                <p class="card-text">The certificate indicates the entire course was completed as
+                                    validated by the student. The course duration represents the total video hours
+                                    of
+                                    the course at time of most recent completion.</p>
+                                <a href="https://www.coursera.org/account/accomplishments/certificate/74ZTJJP3ATCS"
+                                    target="_blank" class="btn btn-custom">Go To Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+             -->
+        <div id="nav-contactme" class="mb-5">
+
+
+        </div>
+        <footer id="contactme ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-12">
+
+                        <span class="custom-span-color"> Let's Connect
+                        </span>
+                        <div style="display: flex;">
+                            <div class="custom-contact-line"></div>
+                            <div class="custom-contact-dot"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <!-- contact form start📌 -->
+
+                <div class="row mt-5 ">
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <span class="input-group-text">Name</span>
+                            <input type="text" class="form-control" id="form-name" placeholder="Enter your name"
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <span class="input-group-text">Email</span>
+                            <input type="email" class="form-control" id="form-id" placeholder="Enter your email "
+                                required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <span class="input-group-text">Message</span>
+                            <input type="text" class="form-control" id="message"
+                                placeholder="Give a brief about your requirements..." required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-8">
+                        <button class="btn-form" onclick="sendContactForm()">Submit <i
+                                class="fas fa-paper-plane"></i></button>
+                        <div class="spinner-border" role="status" id="spinner" style="vertical-align: -0.7em;">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+                <!-- contact form end -->
+                <div class="row mt-5 custom-contact-me-row">
+                    <div class="col text-center">
+                        <a onclick="goToLink('https://www.linkedin.com/in/aditya-sharma02/')"><i
+                                class="fab fa-linkedin-in custom-contactme-linkedln"></i></a>
+                    </div>
+                    <div class="col text-center">
+
+                        <a onclick="goToLink('https://www.instagram.com/adi.xoxo11/')">
+                            <i class="fab fa-instagram custom-contactme-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a onclick="goToLink('https://github.com/adi-boop')">
+                            <i class="fab fa-github custom-contactme-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="row mt-5 custom-contact-me-row">
+                    <div class="col text-center">
+                        <a onclick="goToLink('https://twitter.com/emperorxplo')">
+                            <i class="fab fa-twitter custom-contactme-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a onclick="goToLink('https://wa.me/+917023341933')">
+                            <i class="fab fa-whatsapp custom-contactme-whatsapp"></i>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a href="docs/Resume Aditya.pdf" download="Aditya's Resume" class="shake dib">
+                            <i class="fas fa-download custom-contactme-resume"></i>
+                        </a>
+                    </div>
+                    <div class="col text-center">
+                        <a href="mailto:xplosiveunicorn11@gmail.com">
+                            <i class="fas fa-envelope-open-text custom-contactme-mail"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="row mt-5 text-center my-info">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        Made by: <a href="#nav-about" class="shake-constant shake-constant--hover shake-opacity">Aditya
+                            Sharma</a>
+                    </div>
+                    <br><br><br>
+                    <!--  <p>&copy; Copyright Reserved <span id="copyright-year"></span></p>
+                </div>
+                <div class="row mt-5 india-logo">
+                    <div class="col text-center">
+                        <img src="images/makeinidiag.gif" alt="Made In India">
+                    </div>
+                </div>
+            </div>
+            -->
+
+        </footer>
+    </main>
+    <script src="js/timeline/js/timeline.min.js"></script>
+    <script>
+        timeline(document.querySelectorAll('.timeline'));
+        jQuery('.timeline').timeline();
+    </script>
+    <script src="assets/alertifyjs/build/alertify.min.js"></script>
+    <script src="cdn.jsdelivr.net/npm/%40popperjs/core%402.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="cdn.jsdelivr.net/npm/bootstrap%405.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="js/jquery.tagcanvas.min.js"></script>
+    <script src="js/tagcanvas.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
